@@ -1,0 +1,122 @@
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: azure;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid blue;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.contact-info a {
+  color: blue;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #303030;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+h3 {
+  color: #303030;
+  margin-bottom: 5px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.job-item,
+.certifications li {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  color: grey;
+  margin-top: -0.5px;
+}
+
+.company,
+.provider {
+  font-weight: bold;
+}
+
+.tech-stack {
+  font-size: 0.9em;
+  font-style: oblique;
+  margin-top: -0.5px;
+  color: grey;
+}
+
+.professional-skills-list {
+  list-style: none;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 0;
+}
+
+.credentials-link {
+  display: inline-block;
+  font-size: 0.9em;
+  margin-top: 0.5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: grey;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 50px;
+}
